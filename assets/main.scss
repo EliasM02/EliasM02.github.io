@@ -29,3 +29,18 @@ h2 {
   border-bottom: 1px solid #30363d;
   padding-bottom: 0.3em;
 }
+
+/* Header navigation links */
+.site-header a,
+.site-nav a {
+  color: #58a6ff;
+}
+
+.site-header a:hover,
+.site-nav a:hover {
+  color: #79c0ff;
+}
+
+.site-nav {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
