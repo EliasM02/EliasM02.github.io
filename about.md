@@ -1,6 +1,6 @@
 ---
-title: About
 ---
+## <span class="typing">About Me</span>
 
 I'm an IT student with a strong interest in **cybersecurity**, **Linux systems**, and
 hands-on problem solving.
@@ -17,4 +17,3 @@ My focus areas include:
 This website serves as a living portfolio of my work and learning process.
 
 
-## <span class="typing">About Me</span>
