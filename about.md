@@ -15,3 +15,6 @@ My focus areas include:
 - Scripting and automation
 
 This website serves as a living portfolio of my work and learning process.
+
+
+## <span class="typing">About Me</span>
