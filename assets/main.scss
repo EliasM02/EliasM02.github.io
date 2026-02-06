@@ -18,3 +18,14 @@ pre, code {
   background-color: #161b22;
   color: #c9d1d9;
 }
+
+/* Headings – improve contrast */
+h1, h2, h3, h4 {
+  color: #f0f6fc;
+  margin-top: 1.5em;
+}
+
+h2 {
+  border-bottom: 1px solid #30363d;
+  padding-bottom: 0.3em;
+}
