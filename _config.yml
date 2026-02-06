@@ -1,0 +1,13 @@
+title: Elias Mähler
+description: Cybersecurity | Linux | Windows | CTFs
+theme: minima
+
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+header_pages:
+  - about.md
+  - projects.md
+  - writeups.md
+  - contact.md
