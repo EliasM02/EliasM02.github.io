@@ -30,17 +30,18 @@ h2 {
   padding-bottom: 0.3em;
 }
 
-/* Header navigation links */
-.site-header a,
+/* Header navigation – always visible */
+.site-header {
+  background-color: #0d1117;
+  border-bottom: 1px solid #30363d;
+}
+
 .site-nav a {
-  color: #58a6ff;
+  color: #c9d1d9;          /* synlig direkt */
+  font-weight: 500;
 }
 
-.site-header a:hover,
 .site-nav a:hover {
-  color: #79c0ff;
-}
-
-.site-nav {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  color: #58a6ff;          /* tydlig hover */
+  text-decoration: none;
 }
