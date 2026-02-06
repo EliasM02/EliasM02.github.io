@@ -59,11 +59,14 @@ h2 {
 }
 
 /* Remove duplicated name in footer meta */
-.site-footer .site-meta strong {
+.site-footer .site-title {
   display: none;
 }
 
-
+.site-footer {
+  font-size: 0.9em;
+  color: #8b949e;
+}
 
 
 
@@ -97,27 +100,6 @@ a:hover {
   text-shadow: 0 0 6px rgba(88, 166, 255, 0.4);
 }
 
-
-/* ===== Terminal cursor effect ===== */
-
-h2::after {
-  content: "_";
-  margin-left: 4px;
-  opacity: 1;
-  animation: blink 1s steps(2, start) infinite;
-}
-
-@keyframes blink {
-  to {
-    opacity: 0;
-  }
-}
-
-
-pre {
-  border-left: 3px solid #58a6ff;
-  padding-left: 1em;
-}
 
 
 /* ===== Typing effect (CSS only) ===== */
