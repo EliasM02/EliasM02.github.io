@@ -30,38 +30,37 @@ h2 {
   padding-bottom: 0.3em;
 }
 
-/* ===== Header navigation – FIX VISIBILITY ===== */
+.page-content {
+  margin-top: 2em;
+}
+
+
+/* ===== MINIMA NAV – FORCE VISIBILITY ===== */
 
 .site-header {
   background-color: #0d1117;
   border-bottom: 1px solid #30363d;
 }
 
-.site-nav {
-  opacity: 1; /* kill Minima fade */
-}
-
-.site-nav a {
-  color: #c9d1d9;        /* tydligt synlig */
-  font-weight: 500;
-  opacity: 1;
-}
-
-.site-nav a:hover,
-.site-nav a:focus {
-  color: #58a6ff;        /* hover */
-  text-decoration: none;
+.site-title {
+  color: #c9d1d9 !important;
 }
 
 .site-nav .page-link {
-  opacity: 1;            /* EXTREMT viktigt */
+  color: #c9d1d9 !important;
+  opacity: 1 !important;
+  font-weight: 500;
 }
 
-/* Hero text spacing */
-.page-content h2 {
-  margin-top: 0.5em;
+.site-nav .page-link:hover,
+.site-nav .page-link:focus {
+  color: #58a6ff !important;
+  text-decoration: none;
 }
 
-.page-content {
-  margin-top: 2em;
+/* Remove duplicated name in footer meta */
+.site-footer .site-meta strong {
+  display: none;
 }
+
+
