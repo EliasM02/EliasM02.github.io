@@ -30,18 +30,38 @@ h2 {
   padding-bottom: 0.3em;
 }
 
-/* Header navigation – always visible */
+/* ===== Header navigation – FIX VISIBILITY ===== */
+
 .site-header {
   background-color: #0d1117;
   border-bottom: 1px solid #30363d;
 }
 
-.site-nav a {
-  color: #c9d1d9;          /* synlig direkt */
-  font-weight: 500;
+.site-nav {
+  opacity: 1; /* kill Minima fade */
 }
 
-.site-nav a:hover {
-  color: #58a6ff;          /* tydlig hover */
+.site-nav a {
+  color: #c9d1d9;        /* tydligt synlig */
+  font-weight: 500;
+  opacity: 1;
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+  color: #58a6ff;        /* hover */
   text-decoration: none;
+}
+
+.site-nav .page-link {
+  opacity: 1;            /* EXTREMT viktigt */
+}
+
+/* Hero text spacing */
+.page-content h2 {
+  margin-top: 0.5em;
+}
+
+.page-content {
+  margin-top: 2em;
 }

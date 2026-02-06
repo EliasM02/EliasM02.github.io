@@ -1,8 +1,9 @@
 ---
-layout: home
+layout: page
+title: false
 ---
 
-## Hi, I'm Elias Mähler
+## Elias Mähler
 
 I'm interested in **cybersecurity**, **Linux**, **Windows internals**, and **CTFs**.  
 This site contains selected projects, technical writeups, and notes.
